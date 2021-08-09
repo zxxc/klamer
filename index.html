@@ -1,3 +1,4 @@
+<!DOCTYPE html>
   <html>
     <head>
       <title>Simple story behind Refresh and Access token</title>
@@ -6,10 +7,10 @@
       
     </head>
     <body for="html-export" >
-It's quite popular theme to talk these days, I have a similar story to shed some light on authentication
-      
-      <h1>Simple story behind Refresh and Access token<h1>
-
+        <p>It's quite popular theme to talk these days, I have a similar story to shed some light on authentication
+        </p>
+     <div><h2> Simple story behind Refresh and Access token</h2></div>
+<div>
 <p>Nowadays security schema that lays on two tokens is quite common. There is a lot of information about the theme on the Internet. But there is often only description what is Refresh and Access tokens and how to use them.</p>
 <p>To understand concept behind tokens I would like to do one thought experiment.</p>
 <p>Let&apos;s imagine that you are a student that likes money but often has around zero on his account balance.<br>
@@ -17,8 +18,7 @@ On the way to your university, you open your bank mobile application to check yo
 To show you a balance application needs to execute a request to the bank server:<br>
 GET http://api.mybank.com/balanceHTTP 1.1<br>
 and receives response<br>
-<code>{ balance: &apos;$0.0&apos; }</code>
-        </p>
+<code>{ balance: &apos;$0.0&apos; }</code></p>
 
 <p>Would be good if no one except you could check your bank account. To do so, let&apos;s add special header with user name and your unique password:<br>
 Authorization: <username> <password><br>
@@ -80,8 +80,10 @@ Conclusion:<br>
 We need to use password to obtain long lived refresh token. Then send refresh token to obtain short lived access token. Than utilize access token to execute useful requests.</p>
 
       </div>
-      <p>Some extra links</p>
-          <p><h2>Extrasclub</h2>: <a href='http://extrasclub.com'>castings and extras work for fun</a></p>
+     <div> <p>Some extra links</p>
+          <p><h2>Extrasclub</h2> <a href='http://extrasclub.com'>castings and extras work for fun</a></p>
+
+     </div>
     </body>
- 
+        
   </html>
